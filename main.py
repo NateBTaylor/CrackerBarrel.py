@@ -87,6 +87,7 @@ def find_peg(row, col):
       break
 
 def remove_peg(peg):
+  # this eliminates a peg from the board
   peg.empty = True
   full.remove(peg)
 
